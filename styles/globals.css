@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.scrollx{
+  @apply grid grid-cols-[repeat(5,auto)]  gap-[20px] pl-[16px] pb-[34px] w-full overflow-x-scroll xl:flex xl:flex-row xl:justify-center xl:items-center;
+}
+.scrollx::-webkit-scrollbar {
+  width: 0.2em;
+  background-color: transparent;
+}
+.scrollx::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+.button{
+  @apply font-roboto font-bold text-[20px] text-center  text-azul4 pt-[10px] mt-[20px] pb-[10px] w-[300px] transition-all duration-500  rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px] md:text-[24px] md:w-[400px] md:p-[10px] lg:text-[24px] lg:p-[15px];
+}
+.button{
+  background-color: #F5BB19 !important;
+}
+.button:hover{
+  background-color: #FACC4B !important;
+}
+@media (min-width: 1024px) {
+  .flex-row-rev {
+    flex-direction: row-reverse;
+  }
+}
+html{
+  background: linear-gradient(180deg, #1F1E44 0%, #212048 100%);
+}
+
+.memory-game {
+  @apply grid grid-cols-2 gap-4 md:grid-cols-4 gap-[10px] mt-8 mx-auto  w-full p-[16px];
+}
+
+.card {
+  @apply w-[150px] h-[150px] bg-gray-300 rounded cursor-pointer flex items-center justify-center text-lg;
+  background-size: cover;
+}
+
+.flipped {
+  @apply transform rotate-180;
+}

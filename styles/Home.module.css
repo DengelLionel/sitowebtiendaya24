@@ -1,0 +1,19 @@
+.fondo{
+  background: linear-gradient(180deg, #300F9A 0%, #3918A4 95.7%);
+  border-radius: 0 0 100px 100px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  
+  .fondo{
+    padding-bottom:32px;
+    height:600px ;
+
+  }
+
+}
+
