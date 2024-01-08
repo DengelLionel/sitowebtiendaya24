@@ -16,11 +16,11 @@ const Action = ({titulo,description,boton,imagen,link}:action) => {
     <section className='lg:w-full lg:flex lg:flex-row 2xl:justify-center 2xl:items-center'>
      <section>
 
-    <h1 className='text-[36px] font-righteous font-normal text-center text-textPrimary2 p-[16px] leading-[45px] tracking-[0.015em] mb-[12px] sm:text-[40px] sm:w-[500px] md:text-[48px] md:w-[610px] md:p-[20px] md:leading-[60px] lg:ml-[20px] lg:mb-[12px] lg:text-left xl:text-[55px] xl:w-[710px] xl:p-[32px] xl:leading-[60px]'>{titulo}</h1>
+    <h2 className='text-[36px] font-righteous font-normal text-center text-white p-[16px] leading-[45px] tracking-[0.015em] mb-[12px] sm:text-[40px] sm:w-[500px] md:text-[48px] md:w-[610px] md:p-[20px] md:leading-[60px] lg:ml-[20px] lg:mb-[12px] lg:text-left xl:text-[55px] xl:w-[710px] xl:p-[32px] xl:leading-[60px]'>{titulo}</h2>
    
 
     
-    <article className='p-[16px] font-montserrat text-center font-medium text-[24px] leading-[35px] tracking-[0.015em] text-textPrimary sm:text-[26px] md:flex md:justify-center md:items-center md:leading-[50px] md:p-[20px] lg:items-center lg:leading-[40px] lg:font-bold xl:ml-[32px] xl:mb-[32px]'>
+    <article className='p-[16px] font-montserrat text-center font-medium text-[24px] leading-[35px] tracking-[0.015em] text-whiteTransparent sm:text-[26px] md:flex md:justify-center md:items-center md:leading-[50px] md:p-[20px] lg:items-center lg:leading-[40px] lg:font-bold xl:ml-[32px] xl:mb-[32px]'>
      <p className=' lg:w-[560px]'>{description}</p>
     </article>
     <article className='flex justify-center items-center p-[16px] mt-[21px] mb-[21px] lg:ml-[20px] xl:ml-[32px] xl:mt-0 '>
