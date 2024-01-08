@@ -1,8 +1,10 @@
+import Link from 'next/link'
 import React from 'react'
 interface paquete{
     nombre:string,
     precio:string,
-    incluye:any
+    incluye:any,
+    link:string
 }
 interface paqueteComponent{
     paquetes:paquete[],
@@ -12,7 +14,6 @@ const Paquete = ({paquetes,tipo}:paqueteComponent) => {
     const basico=paquetes[0]
     const intermedio=paquetes[1]
     const premium=paquetes[2]
-    console.log("basico",basico)
   return (
  
     <div className="grid px-6 md:px-12 lg:grid-cols-3 xl:px-32" >
@@ -28,11 +29,11 @@ const Paquete = ({paquetes,tipo}:paqueteComponent) => {
             <small className="text-base text-neutral-500 dark:text-neutral-300">/{tipo}</small>
           </h3>
 
-          <button type="button"
+          <Link href={`${basico.link}`}
             className="inline-block w-full rounded bg-gray-300 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:bg-azulblanco focus:bg-azulblanco focus:outline-none focus:ring-0 active:bg-primary-accent-200"
             data-te-ripple-init data-te-ripple-color="light">
             COMPRAR
-          </button>
+          </Link>
         </div>
         <div className="p-6 text-neutral-300">
           <ol className="list-inside">
@@ -63,11 +64,11 @@ const Paquete = ({paquetes,tipo}:paqueteComponent) => {
             <small className="text-base text-neutral-500 dark:text-neutral-500">/{tipo}</small>
           </h3>
 
-          <button type="button"
+          <Link href={`${intermedio.link}`}
             className="inline-block w-full rounded bg-primary px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
             data-te-ripple-init data-te-ripple-color="light">
             Comprar
-          </button>
+          </Link>
         </div>
         <div className="p-6 text-neutral-600">
           <ol className="list-inside">
@@ -96,11 +97,11 @@ const Paquete = ({paquetes,tipo}:paqueteComponent) => {
             <small className="text-base text-neutral-500 dark:text-neutral-300">/{tipo}</small>
           </h3>
 
-          <button type="button"
+          <Link href={`${premium.link}`}
             className="inline-block w-full rounded bg-gray-300 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:bg-azulblanco focus:bg-azulblanco focus:outline-none focus:ring-0 active:bg-primary-accent-200"
             data-te-ripple-init data-te-ripple-color="light">
            Comprar
-          </button>
+          </Link>
         </div>
         <div className="p-6 text-neutral-300">
           <ol className="list-inside">

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Paquete from './Paquete';
+import Link from 'next/link';
 
 const Pills = () => {
   const [activePill, setActivePill] = useState('pills-home01');
@@ -12,8 +13,9 @@ const Pills = () => {
   const mes=[
     
         {
-            nombre:"Basico",
+            nombre:"Básico",
             precio:"25",
+            link:"https://wa.link/t9wmfn",
             incluye:[
                {item:"Asistencia rápida para resolver problemas técnicos"},
                 {item:"Actualización de productos "},
@@ -25,6 +27,7 @@ const Pills = () => {
         {
             nombre:"Intermedio",
             precio:"35",
+            link:"https://wa.link/apsjo2",
             incluye:[
                 {item:"Asistencia rápida para resolver problemas técnicos"},
                 {item:"Actualización de productos "},
@@ -38,6 +41,7 @@ const Pills = () => {
         {
             nombre:"Premium",
             precio:"75",
+            link:"https://wa.link/gqn63y",
             incluye:[
                 {item:"Asistencia rápida para resolver problemas técnicos"},
                 {item:"Actualización de productos"},
@@ -54,6 +58,7 @@ const Pills = () => {
     {
         nombre:"Basico",
         precio:"19",
+        link:"https://wa.link/t877ck",
         incluye:[
            {item:"Asistencia rápida para resolver problemas técnicos"},
             {item:"Actualización de productos "},
@@ -65,6 +70,7 @@ const Pills = () => {
     {
         nombre:"Intermedio",
         precio:"29",
+        link:"https://wa.link/gbyv30",
         incluye:[
             {item:"Asistencia rápida para resolver problemas técnicos"},
             {item:"Actualización de productos "},
@@ -78,6 +84,7 @@ const Pills = () => {
     {
         nombre:"Premium",
         precio:"69",
+        link:"https://wa.link/2njtuy",
         incluye:[
             {item:"Asistencia rápida para resolver problemas técnicos"},
             {item:"Actualización de productos"},
@@ -98,7 +105,7 @@ const Pills = () => {
         data-te-nav-ref
       >
         <li role="presentation" className="">
-          <a
+          <Link
             href="#pills-home01"
             onClick={(e) => handlePillClick('pills-home01', e)}
             className={`my-2 block w-[250px] rounded bg-neutral-100 px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight  ${activePill === 'pills-home01' ? 'bg-neutral-700 text-white' : 'bg-neutral-200 text-neutral-500'} md:mr-4`}
@@ -110,10 +117,10 @@ const Pills = () => {
             aria-selected={activePill === 'pills-home01'}
           >
             MES
-          </a>
+          </Link>
         </li>
         <li role="profile" className="">
-          <a
+          <Link
             href="#pills-profile01"
             onClick={(e) => handlePillClick('pills-profile01', e)}
             className={`my-2 block w-[250px]  rounded bg-neutral-100 px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight  ${activePill === 'pills-profile01' ? 'bg-neutral-700 text-white' : 'bg-neutral-200 text-neutral-500'} md:mr-4`}
@@ -125,7 +132,7 @@ const Pills = () => {
             aria-selected={activePill === 'pills-profile01'}
           >
             ANUAL
-          </a>
+          </Link>
         </li>
       </ul>
 
