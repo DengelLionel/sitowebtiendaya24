@@ -152,7 +152,7 @@ const Pills = () => {
           role="tabpanel"
           aria-labelledby="pills-profile-tab01"
         >
-          <Paquete tipo="ANUAL" paquetes={anual} /> ok
+          <Paquete tipo="ANUAL" paquetes={anual} /> 
         </div>
       </div>
     </div>
