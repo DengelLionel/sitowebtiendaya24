@@ -2,6 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import Header from '../../components/layouts/Header'
 import Prices from '../../components/Prices'
+import Whatsapp from '../../components/Whatsapp'
+import FooterContent from '../../components/FooterContent'
 const Mantenimiento = () => {
   return (
     <div>
@@ -14,6 +16,8 @@ const Mantenimiento = () => {
 			</Head>
       <Header/>
       <Prices/>
+      <Whatsapp/>
+      <FooterContent/>
     </div>
   )
 }

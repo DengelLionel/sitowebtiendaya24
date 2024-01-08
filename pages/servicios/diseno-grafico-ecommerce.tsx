@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Header from '../../components/layouts/Header'
-import Image from 'next/image'
+import Whatsapp from '../../components/Whatsapp'
 import ImagenCuadroAction from '../../components/ImagenCuadroAction'
 const DisenoGraficoE = () => {
   return (
@@ -18,6 +18,7 @@ const DisenoGraficoE = () => {
 <ImagenCuadroAction activarboton={true} titulo='DISEÑO DE BANNERS' subtitulo='Banners para tu tienda online' textoBoton='PEDIR COTIZACIÓN' link='https://wa.link/j8n81d' imagen='https://res.cloudinary.com/dh9etf988/image/upload/v1704312339/creatiendaya/Sin_t%C3%ADtulo-1_ajht3f.png'/>
 <ImagenCuadroAction activarboton={true} titulo='DISEÑO DE BANNER DE COLECCIÓN' subtitulo='Haz que tu colección sea diferencia de tu competencia' textoBoton='PEDIR COTIZACIÓN' link='https://wa.link/pagm62' imagen='https://res.cloudinary.com/dh9etf988/image/upload/v1704596077/creatiendaya/4661893_2458913_1_ufrvso.jpg'/>
 <ImagenCuadroAction activarboton={true} titulo='DISEÑO DE POSTS REDES SOCIALES' subtitulo='Posts y feeds para tus redes sociales' textoBoton='PEDIR COTIZACIÓN' link='https://wa.link/mmisxv' imagen='https://res.cloudinary.com/dh9etf988/image/upload/v1704596082/creatiendaya/WhatsApp_Image_2024-01-03_at_6.11.04_PM_htkogg.jpg'/>
+<Whatsapp/>
     </div>
   )
 }

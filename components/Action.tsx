@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 interface action{
     titulo:string,
     description:string,
@@ -23,7 +24,7 @@ const Action = ({titulo,description,boton,imagen,link}:action) => {
      <p className=' lg:w-[560px]'>{description}</p>
     </article>
     <article className='flex justify-center items-center p-[16px] mt-[21px] mb-[21px] lg:ml-[20px] xl:ml-[32px] xl:mt-0 '>
-    <a href={`${link}`} className='font-montserrat  font-bold text-[20px] text-center bg-yellow1 text-azul3 w-[250px] pl-[10px] pr-[10px] pt-[10px] pb-[10px] rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px] w-[200px] sm:text-[26px] sm:w-[292px] lg:w-[280px] lg:transition-all lg:duration-[500ms] lg:hover:bg-yellow3 lg:hover:text-azul4 xl:w-[300px] '>{boton}</a>
+    <Link href={`${link}`} className='font-montserrat  font-bold text-[20px] text-center bg-yellow1 text-azul3 w-[250px] pl-[10px] pr-[10px] pt-[10px] pb-[10px] rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px] w-[200px] sm:text-[26px] sm:w-[292px] lg:w-[280px] lg:transition-all lg:duration-[500ms] lg:hover:bg-yellow3 lg:hover:text-azul4 xl:w-[300px] '>{boton}</Link>
     </article>
    
     </section>

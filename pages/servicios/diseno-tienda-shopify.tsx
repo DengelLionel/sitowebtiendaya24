@@ -11,6 +11,7 @@ import Image from 'next/image'
 import EmpresasColabore from '../../components/ecommerce/EmpresasColabore'
 import Proyectos from '../../components/Proyectos'
 import FooterContent from '../../components/FooterContent'
+import Whatsapp from '../../components/Whatsapp'
 const DisenoTiendashopify = () => {
   const procesos=[
     {
@@ -53,6 +54,7 @@ const DisenoTiendashopify = () => {
  <EmpresasColabore/>
  <Titulo titulo='NUESTROS PROYECTOS'/>
  <Proyectos/>
+ <Whatsapp/>
  <FooterContent/>
 </div>
  

@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import PartnerPhoto from "/public/images/dengel.png";
 import ArrowRight from "/public/images/arrow_right.svg";
 import SliderBeneficios from './SliderBeneficios';
+import Link from 'next/link';
 interface idea{
     titulo:string
 }
@@ -60,13 +61,13 @@ const YourIdea = ({titulo}:idea) => {
             </div>
   
             <div className="flex items-center space-x-2 mt-[15px] md:mb-[80px]">
-              <a href="https://wa.link/futxo7" className="bg-green-500 flex flex-row gap-[51px] items-center text-white px-4 py-2 rounded-md font-semibold cursor-pointer text-[18px]" onClick={handleButtonClick}>
+              <Link href="https://wa.link/futxo7" className="bg-green-500 flex flex-row gap-[51px] items-center text-white px-4 py-2 rounded-md font-semibold cursor-pointer text-[18px]" onClick={handleButtonClick}>
                 Cuéntanos tu idea
                 <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M19.5165 8.11794H0.000244141V13.5299H19.5165V21.6478L26.0002 10.8239L19.5165 0V8.11794Z" fill="white"/>
 </svg>
 
-              </a>
+              </Link>
             
             </div>
           </div>

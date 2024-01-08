@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Header from '../components/layouts/Header'
 import StoryComponent from '../components/StoryComponent'
 import BeneficioConocenos from '../components/BeneficioConocenos'
+import Whatsapp from '../components/Whatsapp'
 const conocenos= () => {
   const storyTitle = 'La historia detrás de cómo se fundó nuestra empresa';
   const storyDescription =
@@ -21,6 +22,7 @@ const conocenos= () => {
       <main className='pb-[40px] ' >
       <StoryComponent title={storyTitle} description={storyDescription} imageUrl={storyImageUrl} videoUrl='https://res.cloudinary.com/dh9etf988/video/upload/v1695174939/creatiendaya/conocenos_crea_tienda_ya_i7abca.mp4'/>
    <BeneficioConocenos/>
+   <Whatsapp/>
    </main>
     </>
   )
