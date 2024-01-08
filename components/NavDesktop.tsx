@@ -23,7 +23,7 @@ const NavDesktop = () => {
     <section ref={toggleContainer} className=' flex flex-row lg:gap-[20px] items-center xl:gap-[82px]'>
         <LinkNav 
         Icon={ <IconHome/>} 
-        text={" Mi punto de partida"}
+        text={"INICIO"}
          hreff="/"
        
          />
@@ -31,12 +31,12 @@ const NavDesktop = () => {
         Icon={ <IconModule/>}
      
          open={openMenuDesktop} 
-         text={" Mis servicios integrales"}
+         text={"SERVICIOS"}
           OnClick={()=>setOpenMenuDesktop(!openMenuDesktop)} 
-          links={[{id:1,href:"/webpersonalizada",link:"Páginas web personalizadas"},{id:2,href:"/ecommerce",link:"Mi Comercio Digital"},/* {id:3,href:"",link:"Aplicaciones web personalizadas"},{id:4,href:"",link:"Asesoramiento"},{id:5,href:"",link:"Sistemas web"} */]}
+          links={[{id:1,href:"/diseno-tiendas-shopify",link:"/"},{id:2,href:"/ecommerce",link:"Mi Comercio Digital"},/* {id:3,href:"",link:"Aplicaciones web personalizadas"},{id:4,href:"",link:"Asesoramiento"},{id:5,href:"",link:"Sistemas web"} */]}
          />
          
-        <LinkNav Icon={ <IconJob/>} text={" Mi repositorio de proyectos"} 
+        <LinkNav Icon={ <IconJob/>} text={"TIENDAS DESARROLLADAS"} 
          
         hreff={"/portafolio"}/>
     </section>

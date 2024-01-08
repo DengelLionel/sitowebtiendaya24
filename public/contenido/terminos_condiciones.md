@@ -1,8 +1,8 @@
 1. # **Aceptación de los Términos y Condiciones**
-Al acceder o utilizar cualquier servicio ofrecido por Dengel Rivera Dev (en adelante, "la empresa"), el usuario acepta los siguientes Términos y Condiciones y cualquier otra política o acuerdo que se mencione en este sitio web.
+Al acceder o utilizar cualquier servicio ofrecido por CREA TIENDA YA (en adelante, "la empresa"), el usuario acepta los siguientes Términos y Condiciones y cualquier otra política o acuerdo que se mencione en este sitio web.
 
 2. # **Servicios ofrecidos**
-La empresa ofrece servicios relacionados con la creación de tiendas virtuales Shopify, SEO, sistemas web personalizados y páginas web personalizadas. El usuario acepta que estos servicios pueden estar sujetos a cambios, mejoras o modificaciones en cualquier momento sin previo aviso.
+La empresa ofrece servicios relacionados con tiendas virtuales Shopify,mantenimiento de tiendas online shopify, diseño de tiendas online shopify, diseño gráfico para tiendas online shopify. El usuario acepta que estos servicios pueden estar sujetos a cambios, mejoras o modificaciones en cualquier momento sin previo aviso.
 
 3. # **Propiedad intelectual**
 El contenido de este sitio web, incluyendo pero no limitado a textos, gráficos, logotipos, imágenes, fotografías, iconos, software y demás material, está protegido por las leyes de propiedad intelectual y derechos de autor. El usuario acepta que no podrá utilizar, reproducir, modificar, distribuir o mostrar el contenido de este sitio web sin el permiso expreso por escrito de la empresa.

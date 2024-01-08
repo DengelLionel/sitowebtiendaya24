@@ -9,7 +9,7 @@ const Contenido_Politica = ({politica}:any) => {
         .then(data=>setContenido(data))
     },[])
   return (
-    <div>  <ReactMarkdown>{contenido&&contenido}</ReactMarkdown></div>
+    <div className='mt-[100px] lg:p-[50px]'>  <ReactMarkdown>{contenido&&contenido}</ReactMarkdown></div>
   )
 }
 

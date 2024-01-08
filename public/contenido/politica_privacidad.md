@@ -1,6 +1,6 @@
-# **Política de Privacidad de Dengel Rivera Dev**
+# **Política de Privacidad de CREA TIENDA YA**
 
-En Dengel Rivera Dev, valoramos la privacidad de nuestros usuarios y clientes. Esta Política de Privacidad describe cómo recopilamos, usamos, compartimos y protegemos la información que obtenemos a través de nuestro sitio web [Dengel rivera dev](https://www.dengelriveradev.com)  y los servicios que ofrecemos, incluyendo la creación de tiendas virtuales Shopify, SEO, sistemas web personalizados, páginas web personalizadas.
+En CREA TIENDA YA, valoramos la privacidad de nuestros usuarios y clientes. Esta Política de Privacidad describe cómo recopilamos, usamos, compartimos y protegemos la información que obtenemos a través de nuestro sitio web [CREA TIENDA YA](https://www.creatiendaya.com)  y los servicios que ofrecemos, incluyendo la creación de tiendas virtuales Shopify,mantenimiento de tiendas online shopify, diseño de tiendas online shopify, diseño gráfico para tiendas online shopify.
 
 
 
@@ -52,6 +52,6 @@ Podemos modificar esta Política de Privacidad en cualquier momento. La versión
 
 ## **Contacto**
 
-Si tienes preguntas o comentarios sobre nuestra Política de Privacidad, puedes comunicarte con nosotros a través del correo electrónico denriveracajincho@gmail.com.
+Si tienes preguntas o comentarios sobre nuestra Política de Privacidad, puedes comunicarte con nosotros a través del correo electrónico info@creatiendaya.com.
 
-Fecha de Actualización: 19/04/2023
+Fecha de Actualización: 07/01/2024

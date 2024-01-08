@@ -4,6 +4,7 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+   
   ],
   theme: {
     extend: {
@@ -29,11 +30,12 @@ module.exports = {
         "blue1":"#000814",
         "blue2":"#0F0E47",
         "border1":"#5B59D3",
-        "secundary2":"#1F1E44",
-        "secundary3":"#212048",
+        "secundary2":"#71bb4c",
+        "secundary3":"#40C64B",
         "white2":"#E6E6E6",
         "azulpalido":"#878BB1",
         "black2":"#2F2E4D",
+        "black3":"#4B4A78",
         "azul2":"#1E1357",
         "azul3":"#201F46",
         "azul4":"#3B3A5F",
@@ -47,11 +49,13 @@ module.exports = {
         "linkHover":"rgba(155, 164, 231, 0.5)",
         "orangewhite":"#9D4BAF",
         "morado":"#EEB96D",
-        "blackTransparent":"rgba(0,0,0,.5)"
+        "blackTransparent":"rgba(0,0,0,.5)",
+        "azulblanco":"#DEECEB"
         
       },
       backgroundImage:{
-        "blackDegradado":"linear-gradient(4.99deg, #03030E 1.67%, rgba(0, 0, 0, 0.03) 93.66%)"
+        "blackDegradado":"linear-gradient(4.99deg, #03030E 1.67%, rgba(0, 0, 0, 0.03) 93.66%)",
+        "presentacionDiseno":"url('https://res.cloudinary.com/dh9etf988/image/upload/v1704578788/creatiendaya/dise%C3%B1o_grafico_tienda_online_mobil_qojzx6.jpg')"
       },
       boxShadow:{
         "shadow1":" 0px 4px 4px rgba(1, 1, 55, 0.2) ",
@@ -61,8 +65,11 @@ module.exports = {
       },
       fontFamily:{
        roboto:'var(--font-roboto)',
-       rowdies:'var(--font-rowdies)'
-
+       rowdies:'var(--font-rowdies)',
+      righteous:'var(--font-righteous)',
+      poppins:'var(--font-poppins)',
+      montserrat:'var(--font-montserrat)',
+      brunoacesc:'var(--font-brunoacesc)'
       },
       
     },

@@ -19,6 +19,7 @@ import SubNav from '../../components/SubNav'
 import { useRouter } from 'next/router'
 import { publicaciones,publicaciones_populares } from '../../user/PublicacionesBlog'
 import Card from '../../components/miblog/Card'
+import Header from '../../components/layouts/Header'
 
 const Publicacion=()=> {
     const router=useRouter()
@@ -59,34 +60,10 @@ useEffect(()=>{
 
       </Head>
       
-      <header className="font-roboto tracking-[0.015em]">
-      <HeaderTwo navMobileContent={<NavMobileTypeTwo 
-       openSubNav={openSubNav} 
-       setOpenSubNav={setOpenSubNav} 
-       colorSubNav='bg-sky-600' 
-linksSubNav={<SubNav />} 
-colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
-    <LinkNav Icon={ <IconHome/>} text={" Mi punto de partida"} hreff={"/"}/>
-        <LinkNav Icon={ <IconModule/>} text={" Mis servicios integrales"} OnClick={()=>setOpenSubNav(true)}/>
-        <LinkNav Icon={ <IconJob/>} text={" Mi repositorio de proyectos"} hreff={"/portafolio"}/>
-        <LinkNav Icon={ <IconBrochure/>} text={"Mi brochure"} hreff={"#"}/>
-        <LinkNav Icon={ <IconBlog/>} text={"Mi brog"} hreff={"/miblog"}/>
-        <LinkNav Icon={ <IconPlantilla/>} text={"Mis plantillas web premium"} hreff={"#"}/>
-    </NavMobileTypeTwo>} 
-      logo={<Link href='/' aria-label="te envia home (mi punto de partida)"><IconLogo/></Link>} LinksNavDesktop={<NavDesktop/>} colorHeader='bg-primary ' openMenuDesktop={openMenuDesktop}  openMenu={openMenu} 
-      
-      navDesktopLittle={<NavDesktopTypeTwo colorNavLittleDesktop={"bg-whiteTransparent3 backdrop-blur"} openMenuDesktop={openMenuDesktop}>
-      <LinkNavLittleDesktop href="#" Icon={<IconBrochure/>} text="Mi brochure"/>
-      <LinkNavLittleDesktop href="/miblog" Icon={<IconBlog/>} text="Mi blog"/>
-      <LinkNavLittleDesktop href="#" Icon={<IconPlantilla/>} text="Mis plantillas web premium"/>
-  </NavDesktopTypeTwo>} 
-  setOpenMenu={()=>{setOpenMenu(!openMenu)}} 
-  setOpenMenuDesktop={()=>{setOpenMenuDesktop(!openMenuDesktop)}}/>
-  </header>
+     <Header/>
 
 
-
-      <main className='bg-white2 w-full h-full pt-[16px] pl-[16px] pr-[16px] pb-[40px] flex flex-col gap-[13px] md:pl-[20px] md:pt-[49px]  md:pr-[20px]' >
+      <main className='bg-white2 w-full h-full pt-[16px] pl-[16px] pr-[16px] pb-[40px] flex flex-col mt-[100px] gap-[13px] md:pl-[20px] md:pt-[49px]  md:pr-[20px]' >
         <div className='flex flex-col gap-[13px] md:flex md:flex-row md:gap-[50px]'>
         <section className='w-[328px] bg-sky-600 rounded-[5px] font-rowdies font-right text-center pt-[34px] pl-[22px] pr-[22px] pb-[34px] text-[24px] text-white md:bg-transparent md:w-[600px] md:text-azul2  md:text-[26px] md:flex md:justify-center md:items-center'><h1>{publicacion?.[0]?.titulo||publiPopulares?.[0]?.titulo}</h1></section>
        <div className='relative w-[328px] h-[213px] md:w-[400px] md:h-[300px]'>
@@ -127,9 +104,9 @@ colorNavMobile={"bg-whiteTransparent3 backdrop-blur"} openMenu={openMenu}>
       
         </div>
       </main>
-      <footer className='bg-azul2 w-full h-auto p-[16px]'>
+    
       <FooterContent/>
-      </footer>
+  
     </div>
   )
 }

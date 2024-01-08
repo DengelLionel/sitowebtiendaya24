@@ -223,12 +223,12 @@ export const serviciosEcommerce=[
 
 ]
 export const empresasColabore=[
-    {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1685836734/sitioweb/tienda-lo-mejor-en-tendencias_synv5a.png",link:"https://lomejorentendencias.com/",video:"",titulo:"Lo mejor en tendencias"},
-    {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1685836895/sitioweb/tienda-store-mida_rtxfvs.png",link:"https://storemida.com/",video:"",titulo:"Store mida"},
-    {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1685837022/sitioweb/tienda-se%C3%B1or-colecci%C3%B3n_lf9bre.png",link:"https://senorcoleccion.com/",video:"",titulo:"Señor Colección"},
-    {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1680395752/sitioweb/mejorado1_u9gjx1.png",link:"https://buildperu.com/",video:"",titulo:"Build Perú"},
+    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1704302483/creatiendaya/screenshot-togethershops.com-2024.01.03-12_21_00_vpzxps.png",link:"https://togethershops.com/",video:"",titulo:"TOGETHER SHOPS"},
+    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1704302597/creatiendaya/screenshot-oneberry.pe-2024.01.03-12_22_58_pgqpbh.png",link:"https://oneberry.pe/",video:"",titulo:"ONE BERRY"},
+    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1704302853/creatiendaya/screenshot-isatexhome.com-2024.01.03-12_27_17_fttzlc.png",link:"https://isatexhome.com/",video:"",titulo:"ISATEX HOME"},
+    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1704302959/creatiendaya/screenshot-www.indiwu.com-2024.01.03-12_29_00_jubfm9.png",link:"https://www.indiwu.com/",video:"",titulo:"INDIWU"},
+    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1704303191/creatiendaya/screenshot-zazistore.com.pe-2024.01.03-12_32_35_nzqxbp.png",link:"https://zazistore.com.pe/",video:"",titulo:"ZAZI STORE"},
     {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1680395751/sitioweb/mejorado2_ey990j.png",link:"https://pecaditosfire.com/",video:"",titulo:"Pacaditos Fire "},
-    {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1680395752/sitioweb/mejorado3_pvbhlw.png",link:"https://holadeaf.com/",video:"",titulo:"Hola Deaf"},
-    {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1681959851/sitioweb/OMSHANTI_q3qra2.png",link:"https://omshantiplace.store/",video:"",titulo:"Omshanti place"},
+    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1704302323/creatiendaya/screenshot-dtodostore.com.pe-2024.01.03-12_18_03_j48j2t.png",link:"https://dtodostore.com.pe/",video:"",titulo:"D TODO STORE"},
    
 ]
