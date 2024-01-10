@@ -50,7 +50,7 @@ const StoryComponent = ({ title, description, imageUrl,videoUrl }:StoryComponent
         </div>
         <div className="md:w-1/2">
           <h2 className="text-3xl text-black2 font-montserrat font-semibold mb-4">{title}</h2>
-          <p className="text-md mb-4 text-black3 font-montserrat">{description}</p>
+          <p className="text-md mb-4 text-black3 lg:text-lg font-montserrat">{description}</p>
         </div>
       </div>
     
