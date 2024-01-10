@@ -119,15 +119,15 @@ const [error, setError] = useState(null)
           <ul className="flex space-x-4">
          
             <li>
-              <Link href="/"  className={`text-black2 transition-all duration-150 hover:text-secundary2 ${currentPath === '/' ? 'text-secundary2' : 'text-black2'}`}>
+              <Link href="/"  className={` transition-all duration-150 hover:text-secundary2 ${currentPath === '/' ? 'text-secundary2' : 'text-black2'}`}>
                 INICIO
               </Link>
             </li>
             <li>
               <Link
                 href="#"
-                className={`text-black2 transition-all duration-150 hover:text-secundary2 ${isSubMenuOpenD ?  'text-secundary2' : 'text-black2'} ${
-                    currentPath === '/servicios' ?  'text-text-secundary2' : 'text-black2'
+                className={` transition-all duration-150 hover:text-secundary2 ${isSubMenuOpenD ?  'text-secundary2' : 'text-black2'} ${
+                    currentPath === '/servicios/diseno-tienda-shopify' || currentPath==='/servicios/diseno-grafico-ecommerce'|| 'text-text-secundary2' || currentPath==='/servicios/mantenimiento-soporte-tienda-online-shopify'  ? 'text-secundary2' : 'text-black2'
                   }`}
                 onClick={(e) => {
                   e.preventDefault();
@@ -171,12 +171,12 @@ const [error, setError] = useState(null)
               </Link>
             </li>
             <li>
-              <span onClick={()=>Scroll("#contactanos")}    className={`text-black2 cursor-pointer transition-all duration-150  hover:text-secundary2 ${currentPath === '/contactanos' ? 'text-secundary2' : 'text-black2'}`}>
+              <span onClick={()=>Scroll("#contactanos")}    className={` cursor-pointer transition-all duration-150  hover:text-secundary2 ${currentPath === '/contactanos' ? 'text-secundary2' : 'text-black2'}`}>
                 CONTACTANOS
               </span>
             </li>
             <li>
-              <Link href="https://www.tiktok.com/@creatiendaya"  title="TIKTOK"  className={`text-black2 transition-all duration-150 hover:text-secundary2 ${currentPath === '/' ? 'text-secundary2' : 'text-black2'}`}>
+              <Link href="https://www.tiktok.com/@creatiendaya"  title="TIKTOK"  className={`transition-all duration-150 hover:text-secundary2 ${currentPath === '/' ? 'text-secundary2' : 'text-black2'}`}>
                <IconTiktok/>
               </Link>
             </li>
