@@ -166,7 +166,7 @@ const [error, setError] = useState(null)
               )}
             </li>
             <li>
-              <Link href="/conocenos"    className={`text-black2 transition-all duration-150  hover:text-secundary2 ${currentPath === '/conocenos' ? 'text-secundary2' : 'text-black2'}`}>
+              <Link href="/conocenos"    className={`transition-all duration-150  hover:text-secundary2 ${currentPath === '/conocenos' ? 'text-secundary2' : 'text-black2'}`}>
                 CONOCENOS
               </Link>
             </li>
