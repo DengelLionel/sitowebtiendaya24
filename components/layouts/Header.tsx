@@ -126,7 +126,7 @@ const [error, setError] = useState(null)
             <li>
               <Link
                 href="#"
-                className={` transition-all duration-150 hover:text-secundary2 ${isSubMenuOpenD ?  'text-secundary2' : 'text-black2'} ${
+                className={` transition-all duration-150 hover:text-secundary2  ${
                     currentPath === '/servicios/diseno-tienda-shopify' || currentPath==='/servicios/diseno-grafico-ecommerce'|| 'text-text-secundary2' || currentPath==='/servicios/mantenimiento-soporte-tienda-online-shopify'  ? 'text-secundary2' : 'text-black2'
                   }`}
                 onClick={(e) => {
