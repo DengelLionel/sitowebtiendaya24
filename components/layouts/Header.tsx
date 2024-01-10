@@ -140,8 +140,8 @@ const [error, setError] = useState(null)
                 <ul className="ml-4 absolute top-[60%] bg-secundary2 p-2">
                   {/* Submenu */}
                   <li className='p-[8px]'>
-                    <Link href="/servicios/diseno-tienda-shopify"   className={`text-white transition-all duration-150 hover:text-text-secundary2 ${
-                        currentPath === '/servicios/diseno-tienda-shopify' ?  'text-text-secundary2' : 'text-black2'
+                    <Link href="/servicios/diseno-tienda-shopify"   className={`text-white transition-all duration-150 hover:text-gray-200 ${
+                        currentPath === '/servicios/diseno-tienda-shopify' ?  'text-gray-200' : 'text-black2'
                       }`}>
                      DISEÑO DE TIENDA SHOPIFY
                     </Link>
