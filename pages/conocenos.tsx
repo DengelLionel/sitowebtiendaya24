@@ -5,9 +5,9 @@ import StoryComponent from '../components/StoryComponent'
 import BeneficioConocenos from '../components/BeneficioConocenos'
 import Whatsapp from '../components/Whatsapp'
 const conocenos= () => {
-  const storyTitle = 'La historia detrás de cómo se fundó nuestra empresa';
+  const storyTitle = 'La historia detrás de cómo se fundó nuestra agencia de Desarrollo y diseño';
   const storyDescription =
-    'Es nuestra experiencia la que nos equipa, nuestras emociones las que nos impulsan y nuestra creatividad eso nos distingue. Para ayudar a mantener a nuestros clientes enfocados en el complejo mundo del ecommerce, creamos campañas integradas digitales. Creemos que las pequeñas empresas crean más único lugar atractivo y significativo para trabajar.';
+    'Es nuestra experiencia la que nos equipa, nuestras emociones las que nos impulsan y nuestra creatividad eso nos distingue. Para ayudar a mantener a nuestros clientes enfocados en el complejo mundo del ecommerce, creamos diseños unicos y desarrollos unicos. Creemos que los pequeños negocios son importantes en esta sociedad por eso venimos a ayudarlos.';
   const storyImageUrl = 'https://res.cloudinary.com/dh9etf988/image/upload/v1695181735/creatiendaya/datos-que-no-sabias-de-nosotros.png';
   return (
     <>
