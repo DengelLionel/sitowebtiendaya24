@@ -35,7 +35,7 @@ module.exports = {
         "white2":"#E6E6E6",
         "azulpalido":"#878BB1",
         "black2":"#2F2E4D",
-        "black3":"#4B4A78",
+        "black3":"#646564",
         "azul2":"#1E1357",
         "azul3":"#201F46",
         "azul4":"#3B3A5F",
