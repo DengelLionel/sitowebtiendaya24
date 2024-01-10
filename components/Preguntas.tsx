@@ -10,13 +10,21 @@ const questions=[
      state:false, 
      answer:"No, en 'Crea Tienda Ya' manejamos todos los aspectos técnicos de la configuración y mantenimiento de tu tienda online. Tenemos planes para mantenimiento al mes y anual." },
       { id:2,
-         question:"¿Qué plataformas de comercio electrónico utilizas para crear las tiendas online?",
+         question:"¿Qué es CREA TIENDA YA?",
           state:false,
-           answer:"Nos especializamos en crear tiendas online en Shopify,solo en esta plataforma nos especializamos." },
+           answer:"Somos una agencia de desarrollo y diseño en ecommerce. Hacemos tiendas online optimizados, personalizados. Somos expertos en programación web,diseño web, diseño gráfico." },
         { id:3,
-        question:" ¿Puedo personalizar mi tienda online a mi gusto?",
+        question:" ¿Pueden personalizar mi tienda online a mi gusto?",
         state:false,
-         answer:"Absolutamente, trabajamos contigo para asegurarnos de que tu tienda online refleje la personalidad de tu marca y satisfaga tus necesidades comerciales." } ] 
+         answer:"Absolutamente, trabajamos contigo para asegurarnos de que tu tienda online refleje la personalidad de tu marca y satisfaga tus necesidades comerciales." },
+         { id:4,
+          question:" ¿Para qué paises hacen tiendas online?",
+          state:false,
+           answer:"Para todos los paises. Trabajamos segun sus requerimientos. Investigamos, analizamos. Tenemos clientes de Perú, Chile, Colombia, Ecuador, España, México, Andorra, Alemania y Estados Unidos." },
+           { id:5,
+            question:" ¿Qué servicios online ecommerce hacen?",
+            state:false,
+             answer:"Hacemos: Desarrollo de tiendas online, diseño web de tiendas online, rediseño de tienda online, diseño gráfico de tiendas online, aplicaciones shopify para tu tienda online y mantenimiento para tu tienda online" } ] 
 const Preguntas = () => {
   const [idd,setIdd]=useState<any|undefined>({id:0,state:false});
   return (
