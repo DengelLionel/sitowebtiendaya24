@@ -8,7 +8,7 @@ const Beneficios = () => {
     const benefits = [
         {
           title: 'Expertos en Shopify',
-          description: 'Experiencia comprobada en la plataforma shopify.',
+          description: 'Somos shopify partner.',
           icon: <FaShopify/>,
         },
         {
@@ -18,7 +18,7 @@ const Beneficios = () => {
         },
         {
           title: 'Diseños unicos',
-          description: 'Diseñomos tu tienda según tu nicho',
+          description: 'Diseñamos tu tienda según tu nicho.',
           icon: <BsShop/>,
         },
         // Agrega más beneficios según sea necesario
