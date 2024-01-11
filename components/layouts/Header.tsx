@@ -198,7 +198,7 @@ const [error, setError] = useState(null)
       
     </nav>
     <div
-          className={`md:hidden absolute top-[80px] bg-text-secundary2 p-[16px] w-[340px] transition-transform transform ${
+          className={`md:hidden absolute top-[80px] bg-secundary2 p-[16px] w-[340px] transition-transform transform ${
             isMenuOpen ? 'visible opacity-100 translate-y-0' : 'invisible opacity-0 -translate-y-4'
           }`}
         >
