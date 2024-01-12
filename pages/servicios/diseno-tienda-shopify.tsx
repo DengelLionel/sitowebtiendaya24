@@ -32,6 +32,7 @@ const DisenoTiendashopify = () => {
        <Head>
        <title>Diseño de tiendas online shopify</title>
         <meta name="robots" content="index, follow"></meta>
+        <meta property="og:image" content="https://res.cloudinary.com/dh9etf988/image/upload/v1705081869/creatiendaya/LOGO_CTY_VERDE_02_iauov1.png" />
         <meta name="description" content="Diseñamos tiendas online shopify" />
         <meta name="keywords" content="diseño shopify, diseño web, diseño de tiendas"/>
     <link rel="icon" href="/crea_tienda_ya_favicon.ico" />

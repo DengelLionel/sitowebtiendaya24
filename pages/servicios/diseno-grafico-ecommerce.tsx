@@ -8,6 +8,7 @@ const DisenoGraficoE = () => {
     <div>
          <Head>
        <title>Diseño gráfico para ecommerce</title>
+       <meta property="og:image" content="https://res.cloudinary.com/dh9etf988/image/upload/v1705081869/creatiendaya/LOGO_CTY_VERDE_02_iauov1.png" />
         <meta name="robots" content="index, follow"></meta>
         <meta name="description" content="Diseño gráfico para tu tienda online" />
         <meta name="keywords" content="diseño gráfico, diseño tienda, diseño Perú"/>

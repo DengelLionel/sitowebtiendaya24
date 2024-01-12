@@ -13,6 +13,7 @@ const conocenos= () => {
     <>
       <Head>
 				<title>Conócenos - Crea Tienda Ya: Expertos en crear y potenciar tienda virtual</title>
+        <meta property="og:image" content="https://res.cloudinary.com/dh9etf988/image/upload/v1705081869/creatiendaya/LOGO_CTY_VERDE_02_iauov1.png" />
 				<meta name="description" content="Somos un equipo de expertos dedicados a ayudarte a crear y potenciar tu tienda virtual, sin importar el país en el que te encuentres. Conoce nuestra historia, nuestros valores y nuestra pasión por el ecommerce. Estamos aquí para hacer realidad tus espectativas."/>
 				<meta name="keywords" content="Conócenos, crea tienda ya, crear tienda virtual, potenciar tienda online, ecommerce, emprendimiento, shopify,woocommerce,dropshipping"/>
     <meta name="robots" content="index, follow"/>
