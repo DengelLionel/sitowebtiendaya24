@@ -10,7 +10,7 @@ import TiktokPixel from 'tiktok-pixel';
   }
 } */
 export default function App({ Component, pageProps }: AppProps) {
-  TiktokPixel.init ( 'CJP96PJC77U1G7J3MO8G' )
+  TiktokPixel.init( 'CJP96PJC77U1G7J3MO8G' )
 /* 	TiktokPixel.track('ClickButton') */
   return <> <Head> <meta name="facebook-domain-verification" content="esfie7810pj6f3jpp8wjwmtzzludkc" />
  
