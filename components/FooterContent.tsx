@@ -9,27 +9,27 @@ const FooterContent = () => {
     <div className="container mx-auto lg:flex lg:justify-between">
       {/* Columna 1 */}
       <div className="mb-4 lg:w-1/3 lg:mb-0">
-        <h2 className="text-2xl font-bold mb-2 ">CREA TIENDA YA</h2>
-        <p>Crea tienda ya E.I.R.L. . Tu solución completa para tu ecommerce. Desarrollamos tiendas virtuales a medida para tu negocio, potenciando tus ventas en el mundo digital.</p>
-        <p>Celular: +51906064049</p>
+        <h2 className=" text-[18px] md:text-2xl font-bold mb-2 ">CREA TIENDA YA</h2>
+        <p className=" text-[12px] md:text-[15px]">Crea tienda ya E.I.R.L. . Tu solución completa para tu ecommerce. Desarrollamos tiendas virtuales a medida para tu negocio, potenciando tus ventas en el mundo digital.</p>
+        <p className=" text-[12px] md:text-[15px]">Celular: +51906064049</p>
       </div>
 
       {/* Columna 2 */}
       <div className="mb-4 lg:w-1/3 lg:ml-[35px]">
-        <h2 className="text-2xl font-bold mb-2">Conócenos</h2>
-        <ul className="flex flex-col gap-[9px]">
+        <h2 className="text-[18px] md:text-2xl font-bold mb-2">CONÓCENOS</h2>
+        <ul className="flex flex-col gap-[9px]  text-[12px] md:text-[15px]">
           <li>
-            <Link href="/conocenos" className="hover:underline">
-             CONOCENOS
+            <Link href="/conocenos" className="hover:font-bold">
+             CONÓCENOS
             </Link>
           </li>
           <li>
-            <Link href="#contactanos" className="hover:underline">
+            <Link href="#contactanos" className="hover:font-bold">
              CONTACTANOS
             </Link>
           </li>
           <li>
-            <Link href="#" className="hover:underline">
+            <Link href="#" className="hover:font-bold">
              PREGUNTAS FRECUENTES
             </Link>
           </li>
@@ -59,15 +59,15 @@ const FooterContent = () => {
 
       {/* Columna 3 */}
       <div className="hidden lg:block lg:w-1/3">
-        <h2 className="text-2xl font-bold mb-2">NUESTRAS POLÍTICAS</h2>
-        <ul className="flex flex-col gap-[10px] ">
+        <h2 className="text-[18px] md:text-2xl font-bold mb-2">NUESTRAS POLÍTICAS</h2>
+        <ul className=" text-[12px] md:text-[15px] flex flex-col gap-[10px] ">
           <li>
-            <Link href="/politica-de-privacidad" className="hover:underline">
+            <Link href="/politica-de-privacidad" className="hover:font-bold">
              POLÍTICA DE PRIVACIDAD
             </Link>
           </li>
           <li>
-            <Link href="/terminos-y-condiciones" className="hover:underline">
+            <Link href="/terminos-y-condiciones" className="hover:font-bold">
             TERMINOS Y CONDICIONES
             </Link>
           </li>
@@ -77,19 +77,19 @@ const FooterContent = () => {
     </div>
     <div className="hidden lg:block lg:w-full lg:mt-[30px]">
       
-        <p>&copy; 2024 CREA TIENDA YA E.I.R.L. . Todos los derechos reservados.</p>
+        <p className="text-[11px]">&copy; 2024 CREA TIENDA YA E.I.R.L. . Todos los derechos reservados.</p>
       </div>
     {/* Acordeón para dispositivos móviles */}
     <div className="lg:hidden mt-4">
-    <h2 className="text-2xl font-bold mb-2">NUESTRAS POLÍTICAS</h2>
-        <ul className="flex flex-col gap-[10px] ">
+    <h2 className="text-[18px] md:text-2xl font-bold mb-2">NUESTRAS POLÍTICAS</h2>
+        <ul className="text-[12px] md:text-[15px] flex flex-col gap-[10px] ">
           <li>
-            <Link href="/politica-de-privacidad" className="hover:underline">
+            <Link href="/politica-de-privacidad" className="hover:font-bold">
              POLÍTICA DE PRIVACIDAD
             </Link>
           </li>
           <li>
-            <Link href="/terminos-y-condiciones" className="hover:underline">
+            <Link href="/terminos-y-condiciones" className="hover:font-bold">
             TERMINOS Y CONDICIONES
             </Link>
           </li>
