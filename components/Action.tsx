@@ -28,13 +28,10 @@ const Action = ({titulo,description,boton,imagen,link}:action) => {
     </article>
    
     </section>
-    <article className='hidden lg:flex lg:relative lg:-left-[150px] xl:-left-0'>
-    <Image src={imagen} width={700} height={200} alt="Diseño de tiendas online"/>
-    </article>
     </section>
-    <article className='pl-[16px] pr-[16px] pb-[50px] sm:flex sm:justify-center  md:pb-[80px] lg:hidden'>
-    <Image src={imagen} width={350} height={200} alt="Diseño de tiendas online"/>
-    </article>
+
+    <Image className='w-[350px] lg:w-[500px] pl-[16px] pr-[16px] pb-[50px] sm:flex sm:justify-center  md:pb-[80px] rounded-b-[100px] lg:rounded-bl-[15px] lg:rounded-br-[15px] lg:rounded-tl-[15px] lg:rounded-tr-[15px]' src={imagen} width={550} height={300} alt="Diseño de tiendas online"/>
+
     </section> 
   )
 }

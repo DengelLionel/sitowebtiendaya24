@@ -40,7 +40,7 @@ export default function Home() {
   {/* <HechaVistasoProyectos/> */}
     {/*  <PlantillasWeb/> */}
      <Preguntas/>
-     <Action link='https://wa.link/zqg997' titulo='Potencia tu tienda online existente' description='Mejoramos tu tienda online con un rediseño espectacular. Escribenos para más información.' boton='QUIERO MEJORAR MI TIENDA' imagen='https://res.cloudinary.com/dh9etf988/image/upload/v1703663849/creatiendaya/diseno-tienda-online_1_mdyj9v.png'/>
+     <Action link='https://wa.link/zqg997' titulo='Potencia tu tienda online existente' description='Mejoramos tu tienda online con un rediseño espectacular. Escribenos para más información.' boton='QUIERO MEJORAR MI TIENDA' imagen='https://res.cloudinary.com/dh9etf988/image/upload/v1709345698/creatiendaya/tienda_online_peru_hhfxer.png'/>
    {/*   <Formulario/> */}
      <Whatsapp/>
       </main>
