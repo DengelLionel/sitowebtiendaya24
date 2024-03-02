@@ -40,7 +40,7 @@ const StoryComponent = ({ title, imageUrl,videoUrl }:StoryComponentProps) => {
     <div className="mx-auto p-4 mt-[80px]">
       <div className='flex flex-wrap mb-[20px] justify-center align-center'>
       
-        <img className='w-[450px] rounded-lg' src='https://res.cloudinary.com/dh9etf988/image/upload/v1709337223/crea-tienda-ya-conocenos_1_b9oo0z.png'/>
+        <img alt="Tu tienda online para tu tienda shopify" className='w-[450px] rounded-lg' src='https://res.cloudinary.com/dh9etf988/image/upload/v1709337223/crea-tienda-ya-conocenos_1_b9oo0z.png'/>
       </div>
       
       <div className="flex flex-wrap w-full items-center justify-center">
