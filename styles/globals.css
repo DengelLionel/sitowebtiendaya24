@@ -8,7 +8,25 @@
 --font-poppins: 'Poppins', sans-serif;
 --font-brunoacesc:'Bruno Ace SC', sans-serif;
 }
-
+.titulo-diseno{
+  @appy font-montserrat;
+}
+.titulo-diseno{
+  -webkit-text-stroke: 2px #000;
+  color: transparent;
+}
+@media (min-width: 240px) and (max-width: 768px){
+  .titulo-diseno{
+    font-size: 3em;
+  }
+  
+}
+@media (min-width: 769px) and (max-width: 1970px){
+  .titulo-diseno{
+    font-size: 3.5em;
+  }
+  
+}
 .background-radial-gradient {
   background-color: hsl(124, 40%, 15%);
   background-image: radial-gradient(650px circle at 0% 0%,

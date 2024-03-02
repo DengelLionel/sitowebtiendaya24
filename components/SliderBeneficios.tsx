@@ -32,7 +32,7 @@ const SliderBeneficios = ({beneficios}:BenefitsComponentProps ) => {
       
        {beneficios?.map((beneficio:any,index:any)=>(
  <SwiperSlide key={index}>
- <section  className={`bg-green-500 w-full h-full md:w-[400px] text-white font-bold font-montserrat p-[16px] flex flex-row justify-center items-center`}>
+ <section  className={`bg-secundary2 w-full h-full md:w-[400px] text-white font-bold font-montserrat p-[16px] flex flex-row justify-center items-center`}>
     <p className='text-center w-[280px]'>{beneficio.beneficio}</p>
     <svg className='swiper-button-prev' width="10" height="24" viewBox="0 0 10 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M10.0002 20.6253L3.81941 11.6857L10.0002 2.74615L8.09741 0L0.000244141 11.6857L8.09741 23.3715L10.0002 20.6253Z" fill="white" fill-opacity="0.65"/>

@@ -41,7 +41,7 @@ const YourIdea = ({titulo}:idea) => {
     ];
     return (
       <section className="bg-white">
-        <div className="flex flex-col justify-center items-center lg:flex-row mx-auto max-w-7xl p-6 space-y-6 md:space-y-0">
+        <div className="flex flex-wrap justify-center items-center mx-auto max-w-7xl p-6 space-y-6 md:space-y-0">
           <div className="md:w-1/2 flex flex-col items-center">
             <h2 className="text-3xl font-montserrat lg:text-[30px] font-bold text-gray-800 mb-4 sm:text-center md:text-4xl md:mb-6 max-w-md lg:text-left">
               {titulo}
@@ -61,7 +61,7 @@ const YourIdea = ({titulo}:idea) => {
             </div>
   
             <div className="flex items-center space-x-2 mt-[15px] md:mb-[80px]">
-              <Link href="https://wa.link/futxo7" className="bg-green-500 flex flex-row gap-[51px] items-center text-white px-4 py-2 rounded-md font-semibold cursor-pointer text-[18px]" onClick={handleButtonClick}>
+              <Link href="https://wa.link/futxo7" className="bg-[#9BBC4C] hover:bg-secundary2 transition duration-150 ease-in-out flex flex-row gap-[51px] items-center text-white px-4 py-2 rounded-md font-semibold cursor-pointer text-[18px]" onClick={handleButtonClick}>
                 Cuéntanos tu idea
                 <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M19.5165 8.11794H0.000244141V13.5299H19.5165V21.6478L26.0002 10.8239L19.5165 0V8.11794Z" fill="white"/>
@@ -74,7 +74,7 @@ const YourIdea = ({titulo}:idea) => {
   
           {/* Beneficios */}
           <div className="md:w-1/2 flex justify-center flex-col items-center">
-            <div className="bg-green-500 text-white font-bold text-center p-[10px] rounded-t-md w-[170px] rounded-t-[50px] lg:w-[239px]">
+            <div className="bg-secundary2 text-white font-bold text-center p-[10px] rounded-t-md w-[170px] rounded-t-[50px] lg:w-[239px]">
               BENEFICIOS
             </div>
   <SliderBeneficios beneficios={beneficios}/>
