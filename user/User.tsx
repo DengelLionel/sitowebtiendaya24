@@ -223,12 +223,12 @@ export const serviciosEcommerce=[
 
 ]
 export const empresasColabore=[
-    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1704302483/creatiendaya/screenshot-togethershops.com-2024.01.03-12_21_00_vpzxps.png",link:"https://togethershops.com/",video:"",titulo:"TOGETHER SHOPS"},
-    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1704302597/creatiendaya/screenshot-oneberry.pe-2024.01.03-12_22_58_pgqpbh.png",link:"https://oneberry.pe/",video:"",titulo:"ONE BERRY"},
-    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1704302853/creatiendaya/screenshot-isatexhome.com-2024.01.03-12_27_17_fttzlc.png",link:"https://isatexhome.com/",video:"",titulo:"ISATEX HOME"},
-    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1704302959/creatiendaya/screenshot-www.indiwu.com-2024.01.03-12_29_00_jubfm9.png",link:"https://www.indiwu.com/",video:"",titulo:"INDIWU"},
-    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1704303191/creatiendaya/screenshot-zazistore.com.pe-2024.01.03-12_32_35_nzqxbp.png",link:"https://zazistore.com.pe/",video:"",titulo:"ZAZI STORE"},
-    {imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1680395751/sitioweb/mejorado2_ey990j.png",link:"https://pecaditosfire.com/",video:"",titulo:"Pacaditos Fire "},
-    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1704302323/creatiendaya/screenshot-dtodostore.com.pe-2024.01.03-12_18_03_j48j2t.png",link:"https://dtodostore.com.pe/",video:"",titulo:"D TODO STORE"},
+    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1709509086/creatiendaya/NUEVO-LOGO-WEB-2_y3tjbf.avif",link:"https://napbeauty.com/",video:"",titulo:"Napbeauty"},
+    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1709509086/creatiendaya/NUEVO-LOGO-WEB-2_y3tjbf.avif",link:"https://isatexhome.com/",video:"",titulo:"ISATEX HOME"},
+    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1709509086/creatiendaya/logo-togethershop_180_a43370a5-831e-4ce1-8587-492321fbb241_123x_czfkcp.avif",link:"https://togethershops.com/",video:"",titulo:"TOGUETER SHOPS"},
+    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1709509086/creatiendaya/oneberry_299e86cf-8b71-46b9-8794-4d472e1e5194_p3i00u.webp",link:"https://oneberry.pe/",video:"",titulo:"ONE BERRY"},
+    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1709509794/creatiendaya/Secuencia-02-unscreen_xxblvw.webp",link:"https://zazistore.com.pe/",video:"",titulo:"ZAZI STORE"},
+    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1709509086/creatiendaya/Diseno_sin_titulo_54_irqck2.avif",link:"https://pecaditosfire.com/",video:"",titulo:"Pacaditos Fire "},
+    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1709509086/creatiendaya/TECNOLOGIA_MAS__2_-removebg-preview_2_188x_ilufan.webp",link:"https://dtodostore.com.pe/",video:"",titulo:"D TODO STORE"},
    
 ]
