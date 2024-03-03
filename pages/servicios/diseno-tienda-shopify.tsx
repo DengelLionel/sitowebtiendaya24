@@ -30,11 +30,11 @@ const DisenoTiendashopify = () => {
   return (
     <div>
        <Head>
-       <title>Diseño de tiendas online shopify</title>
+       <title>Diseño Profesional de Tiendas Online Shopify | CREA TIENDA YA</title>
         <meta name="robots" content="index, follow"></meta>
         <meta property="og:image" content="https://res.cloudinary.com/dh9etf988/image/upload/v1705081869/creatiendaya/LOGO_CTY_VERDE_02_iauov1.png" />
-        <meta name="description" content="Diseñamos tiendas online shopify" />
-        <meta name="keywords" content="diseño shopify, diseño web, diseño de tiendas"/>
+        <meta name="description" content="En CREA TIENDA YA, especialistas en diseño de tiendas online Shopify, ofrecemos soluciones personalizadas que combinan estética profesional. Nuestro compromiso es maximizar tu presencia online y potenciar tus ventas. Explora cómo nuestro enfoque dedicado y experiencia en Shopify pueden marcar la diferencia en tu proyecto. ¡Eleva tu negocio con nosotros hoy!" />
+        <meta name="keywords" content="diseño shopify, diseño web, diseño de tiendas online, diseño plantilla de shopify, diseño de tiendas virtuales shopify"/>
     <link rel="icon" href="/crea_tienda_ya_favicon.ico" />
 			</Head>
       <Header/>
