@@ -9,7 +9,7 @@ interface image{
 const ImagenEmpresas = ({imagen,titulo,link}:image) => {
   return (
     <Link href={link}>
-    <Image className='w-auto  h-auto xl:scale-90 transition-all duration-[500ms] xl:hover:scale-100 shadow-shadow1 grayscale hover:grayscale-0' alt={titulo} src={imagen}/>
+    <Image className='w-auto  h-auto xl:scale-90 transition-all duration-[500ms] xl:hover:scale-100 shadow-shadow1 grayscale hover:grayscale-0' width={300} height={200} alt={titulo} src={imagen}/>
 
     </Link>
   )
