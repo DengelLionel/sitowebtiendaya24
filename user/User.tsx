@@ -223,7 +223,7 @@ export const serviciosEcommerce=[
 
 ]
 export const empresasColabore=[
-    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1709509086/creatiendaya/NUEVO-LOGO-WEB-2_y3tjbf.avif",link:"https://napbeauty.com/",video:"",titulo:"Napbeauty"},
+    {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1709510025/creatiendaya/WhatsApp_Image_2024-02-08_at_9.54.17_PM_umlf4p.jpg",link:"https://napbeauty.com/",video:"",titulo:"Napbeauty"},
     {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1709509086/creatiendaya/NUEVO-LOGO-WEB-2_y3tjbf.avif",link:"https://isatexhome.com/",video:"",titulo:"ISATEX HOME"},
     {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1709509086/creatiendaya/logo-togethershop_180_a43370a5-831e-4ce1-8587-492321fbb241_123x_czfkcp.avif",link:"https://togethershops.com/",video:"",titulo:"TOGUETER SHOPS"},
     {imagen:"https://res.cloudinary.com/dh9etf988/image/upload/v1709509086/creatiendaya/oneberry_299e86cf-8b71-46b9-8794-4d472e1e5194_p3i00u.webp",link:"https://oneberry.pe/",video:"",titulo:"ONE BERRY"},
