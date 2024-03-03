@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from "next/legacy/image"
+import Image from "next/image"
 import Link from "next/link"
 interface image{
     imagen:string,
@@ -9,9 +9,8 @@ interface image{
 const ImagenEmpresas = ({imagen,titulo,link}:image) => {
   return (
     <Link href={link}>
-    <div className='relative w-auto  h-auto xl:scale-90 transition-all duration-[500ms] xl:hover:scale-100 shadow-shadow1 grayscale hover:grayscale-0'>
-    <Image className='rounded-[10px]' layout='fill'  objectFit="cover" alt={titulo} src={imagen}/>
-    </div>
+    <Image className='w-auto  h-auto xl:scale-90 transition-all duration-[500ms] xl:hover:scale-100 shadow-shadow1 grayscale hover:grayscale-0' alt={titulo} src={imagen}/>
+
     </Link>
   )
 }
