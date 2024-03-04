@@ -1,10 +1,11 @@
 import React from 'react'
 import ImagenEmpresas from './ImagenEmpresas'
 import { empresasColabore } from '../../user/User'
-
+import { Marquee } from '@devnomic/marquee'
+import "@devnomic/marquee/dist/index.css";
 const EmpresasColabore = () => {
   return (
-         <section className='flex-wrap gap-[15px] xl:gap-[23px] justify-center items-center'>
+    <Marquee className="gap-[3rem] duration-[5s]"  fade={true}>
           {empresasColabore?.map((empresa:any,index:any)=>(      
               <ImagenEmpresas 
                key={index}
@@ -13,7 +14,7 @@ const EmpresasColabore = () => {
               titulo={empresa.titulo}
               /> 
           ))}
-         </section>
+        </Marquee>
        
   )
 }
