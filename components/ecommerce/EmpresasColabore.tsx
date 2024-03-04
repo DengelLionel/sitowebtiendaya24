@@ -4,8 +4,7 @@ import { empresasColabore } from '../../user/User'
 
 const EmpresasColabore = () => {
   return (
-    <div className='flex justify-center items-center w-full'>
-         <section className='flex-wrap gap-[15px] xl:gap-[23px]'>
+         <section className='flex-wrap gap-[15px] xl:gap-[23px] justify-center items-center w-full'>
           {empresasColabore?.map((empresa:any,index:any)=>(      
               <ImagenEmpresas 
                key={index}
@@ -16,7 +15,6 @@ const EmpresasColabore = () => {
           ))}
          </section>
        
-    </div>
   )
 }
 
