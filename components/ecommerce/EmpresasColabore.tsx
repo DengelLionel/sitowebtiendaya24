@@ -5,7 +5,7 @@ import { Marquee } from '@devnomic/marquee'
 import "@devnomic/marquee/dist/index.css";
 const EmpresasColabore = () => {
   return (
-    <Marquee className=" w-full h-[90px] bg-secundary2 flex flex-row align-center duration-[5s]"  fade={true}>
+    <Marquee className=" w-full  flex flex-row align-center duration-[5s]"  fade={true}>
           {empresasColabore?.map((empresa:any,index:any)=>(      
               <ImagenEmpresas 
                key={index}
