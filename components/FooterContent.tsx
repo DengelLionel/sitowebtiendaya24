@@ -9,14 +9,14 @@ const FooterContent = () => {
     <div className="container mx-auto lg:flex lg:justify-between">
       {/* Columna 1 */}
       <div className="mb-4 lg:w-1/3 lg:mb-0">
-        <h2 className=" text-[18px] md:text-2xl font-bold mb-2 tracking-[0.12em]">CREA TIENDA YA</h2>
+        <h2 className=" text-[18px] md:text-2xl font-bold mb-[30px] tracking-[0.12em] text-secundary2">CREA TIENDA YA</h2>
         <p className=" text-[12px] md:text-[15px] tracking-[0.12em]">Crea tienda ya E.I.R.L. . Tu solución completa para tu ecommerce. Desarrollamos tiendas virtuales a medida para tu negocio, potenciando tus ventas en el mundo digital.</p>
         <p className=" text-[12px] md:text-[15px] tracking-[0.12em] mt-[15px]">Whatsapp: +51906064049</p>
       </div>
 
       {/* Columna 2 */}
       <div className="mb-4 lg:w-1/3 lg:ml-[35px]">
-        <h2 className="text-[18px] md:text-2xl font-bold mb-2 tracking-[0.12em]">CONÓCENOS</h2>
+        <h2 className="text-[18px] md:text-2xl font-bold mb-[30px] tracking-[0.12em] text-secundary2">CONÓCENOS</h2>
         <ul className="flex flex-col gap-[9px]  text-[12px] md:text-[15px]">
           <li>
             <Link href="/conocenos" className="hover:font-bold tracking-[0.12em]">
@@ -59,7 +59,7 @@ const FooterContent = () => {
 
       {/* Columna 3 */}
       <div className="hidden lg:block lg:w-1/3">
-        <h2 className="text-[18px] md:text-2xl font-bold mb-2 tracking-[0.12em]">NUESTRAS POLÍTICAS</h2>
+        <h2 className="text-[18px] md:text-2xl font-bold mb-[30px] tracking-[0.12em] text-secundary2">NUESTRAS POLÍTICAS</h2>
         <ul className=" text-[12px] md:text-[15px] flex flex-col gap-[10px] ">
           <li>
             <Link href="/politica-de-privacidad" className="hover:font-bold tracking-[0.12em]">
