@@ -12,6 +12,7 @@ import EmpresasColabore from '../../components/ecommerce/EmpresasColabore'
 import Proyectos from '../../components/Proyectos'
 import FooterContent from '../../components/FooterContent'
 import Whatsapp from '../../components/Whatsapp'
+import Action from '../../components/Action'
 const DisenoTiendashopify = () => {
   const procesos=[
     {
@@ -55,6 +56,7 @@ const DisenoTiendashopify = () => {
  <EmpresasColabore/>
  <Titulo titulo='NUESTROS PROYECTOS'/>
  <Proyectos/>
+ <Action link='https://wa.link/zqg997' titulo='Descubre cómo podemos transformar tu tienda Shopify.' description='¡Obtén tu presupuesto gratis ahora!' boton='Pide tu presupuesto ahora' imagen='https://res.cloudinary.com/dh9etf988/image/upload/v1709345698/creatiendaya/tienda_online_peru_hhfxer.png'/>
  <Whatsapp/>
  <FooterContent/>
 </div>

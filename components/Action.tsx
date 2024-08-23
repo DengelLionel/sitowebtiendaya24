@@ -12,7 +12,7 @@ interface action{
 const Action = ({titulo,description,boton,imagen,link}:action) => {
     
   return (
-    <section className={styles.fondo}>
+    <section className={`flex flex-col justify-center object-contain items-center mb-[50px] sm:pt-[100px] lg:pb-[32px] flex-row w-full cuadroaction`}  style={{backgroundImage:`url(${imagen})`,height:600}}>
     <section className='lg:w-full lg:flex lg:flex-row 2xl:justify-center 2xl:items-center'>
      <section>
 
@@ -24,13 +24,13 @@ const Action = ({titulo,description,boton,imagen,link}:action) => {
      <p className=' lg:w-[560px]'>{description}</p>
     </article>
     <article className='flex justify-center items-center p-[16px] mt-[21px] mb-[21px] lg:ml-[20px] xl:ml-[32px] xl:mt-0 '>
-    <Link href={`${link}`} className='font-montserrat  font-bold text-[20px] text-center bg-yellow1 text-azul3 w-[250px] pl-[10px] pr-[10px] pt-[10px] pb-[10px] rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px] w-[200px] sm:text-[26px] sm:w-[292px] lg:w-[280px] lg:transition-all lg:duration-[500ms] lg:hover:bg-yellow3 lg:hover:text-azul4 xl:w-[300px] '>{boton}</Link>
+    <Link href={`${link}`} className='font-montserrat  font-bold text-[20px] text-center bg-yellow1 text-azul3 w-[280px] pl-[10px] pr-[10px] pt-[10px] pb-[10px] rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px] sm:text-[26px] sm:w-[70%] lg:transition-all lg:duration-[500ms] lg:hover:bg-yellow3 lg:hover:text-azul4'>{boton}</Link>
     </article>
    
     </section>
     </section>
 
-    <Image className='w-[350px] lg:w-[500px] pl-[16px] pr-[16px] pb-[50px] sm:flex sm:justify-center  md:pb-[80px] rounded-b-[100px] lg:rounded-bl-[15px] lg:rounded-br-[15px] lg:rounded-tl-[15px] lg:rounded-tr-[15px]' src={imagen} width={550} height={300} alt="Diseño de tiendas online"/>
+    
 
     </section> 
   )

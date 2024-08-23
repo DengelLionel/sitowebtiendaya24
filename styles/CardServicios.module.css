@@ -18,8 +18,8 @@ gap: 6px;
     justify-content: center;
     align-items: center;
     gap: 20px;
-  
-
+    margin-top:30px;
+    margin-bottom: 80px;
 }
 .content1{
     width: 133px;

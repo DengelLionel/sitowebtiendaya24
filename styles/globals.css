@@ -8,6 +8,20 @@
 --font-poppins: 'Poppins', sans-serif;
 --font-brunoacesc:'Bruno Ace SC', sans-serif;
 }
+
+.cuadroaction{
+  position: relative;
+  z-index: 1;
+}
+.cuadroaction::before{
+  position: absolute;
+  width: 100%;
+  height:100%;
+  background-color: rgba(0,0,0,0.25);
+  content: '';
+  top: 0;
+  z-index: -1;
+}
 .titulo-diseno{
   @appy font-montserrat;
 }
