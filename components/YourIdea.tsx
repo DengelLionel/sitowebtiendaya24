@@ -33,10 +33,10 @@ const YourIdea = ({titulo}:idea) => {
         beneficio: "Genera confianza y credibilidad"
       },
       {
-        beneficio: "Separa a tu tienda de la competencia"
+        beneficio: "Un diseño que atrae a más clientes y aumenta tus ventas"
       },
       {
-        beneficio: "Aumenta tus ventas"
+        beneficio: "Soporte continuo para asegurar el éxito de tu tienda"
       }
     ];
     return (
@@ -62,7 +62,7 @@ const YourIdea = ({titulo}:idea) => {
   
             <div className="flex items-center space-x-2 mt-[15px] md:mb-[80px]">
               <Link href="https://wa.link/futxo7" className="bg-[#9BBC4C] hover:bg-secundary2 transition duration-150 ease-in-out flex flex-row gap-[51px] items-center text-white px-4 py-2 rounded-md font-semibold cursor-pointer text-[18px]" onClick={handleButtonClick}>
-                Cuéntanos tu idea
+              Solicita tu consulta gratis
                 <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M19.5165 8.11794H0.000244141V13.5299H19.5165V21.6478L26.0002 10.8239L19.5165 0V8.11794Z" fill="white"/>
 </svg>

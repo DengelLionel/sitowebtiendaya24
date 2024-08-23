@@ -30,16 +30,16 @@ const DisenoTiendashopify = () => {
   return (
     <div>
        <Head>
-       <title>Diseño Profesional de Tiendas Online Shopify | CREA TIENDA YA</title>
+       <title>Un diseño que atrae a más clientes y aumenta tus ventas</title>
         <meta name="robots" content="index, follow"></meta>
         <meta property="og:image" content="https://res.cloudinary.com/dh9etf988/image/upload/v1705081869/creatiendaya/LOGO_CTY_VERDE_02_iauov1.png" />
-        <meta name="description" content="En CREA TIENDA YA, especialistas en diseño de tiendas online Shopify, ofrecemos soluciones personalizadas que combinan estética profesional. Nuestro compromiso es maximizar tu presencia online y potenciar tus ventas. Explora cómo nuestro enfoque dedicado y experiencia en Shopify pueden marcar la diferencia en tu proyecto. ¡Eleva tu negocio con nosotros hoy!" />
-        <meta name="keywords" content="diseño shopify, diseño web, diseño de tiendas online, diseño plantilla de shopify, diseño de tiendas virtuales shopify"/>
+        <meta name="description" content="Nuestro equipo crea tiendas Shopify personalizadas que no solo se ven increíbles, sino que también están diseñadas para maximizar tus ventas y crecimiento." />
+        <meta name="keywords" content="mejor diseño de tienda Shopify, servicios profesionales Shopify, crear tienda Shopify desde cero, experto en Shopify, diseño personalizado para Shopify"/>
     <link rel="icon" href="/crea_tienda_ya_favicon.ico" />
 			</Head>
       <Header/>
       <section className="flex flex-col justify-center">
-  <HeroHeader palabra="DISEÑO" titulo=" DE TIENDAS ONLINE SHOPIFY" contenido="Somos expertos diseñando tiendas online, somos" />
+  <HeroHeader palabra="TRANSFORMA" titulo=" TU VISIÓN EN UNA TIENDA DE EXITO" contenido="Somos expertos diseñando tiendas online, somos" />
   <YourIdea titulo="Diseño de tienda online shopify para aumentar tus ventas" />
 <div className='flex flex-col justify-center items-center'>
 <Titulo titulo='PROCESO DE TRABAJO'/>

@@ -171,7 +171,7 @@ const [error, setError] = useState(null)
               </Link>
             </li>
             <li>
-              <Link href="https://wa.link/4ad85q"  target='_blank' className={` cursor-pointer transition ease-in-out duration-150  hover:text-secundary2 `}>
+              <Link href="https://wa.link/4ad85q"  target='_blank' className={` cursor-pointer transition ease-in-out duration-150 text-black2  hover:text-secundary2 `}>
                 CONTÁCTANOS
               </Link>
             </li>
