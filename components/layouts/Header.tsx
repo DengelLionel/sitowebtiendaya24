@@ -243,7 +243,7 @@ const [error, setError] = useState(null)
               )}
             </li>
             <li className='p-[8px]'>
-              <Link href="/contactanos" className="text-white">
+              <Link href="https://wa.link/4ad85q" className="text-white">
                 CONTÁCTANOS
               </Link>
             </li>
