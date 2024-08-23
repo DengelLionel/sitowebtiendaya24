@@ -18,8 +18,8 @@ export default function Home() {
       <Head>
       <title>Crea tienda ya | Creación y mejora de tiendas online shopify</title>
       <meta property="og:image" content="https://res.cloudinary.com/dh9etf988/image/upload/v1705081869/creatiendaya/LOGO_CTY_VERDE_02_iauov1.png" />
-<meta name="description" content="Crea Tienda Ya es tu aliado para desarrollar, crear y mejorar tu tienda online. Convierte tus sueños en realidad digital. Somos expertos en el crecimiento de tiendas en línea y estamos comprometidos en ayudarte a lanzar y hacer prosperar tu negocio en línea de manera efectiva y exitosa. ¡Descubre cómo podemos hacer que tu visión cobre vida en el mundo digital hoy mismo!" />
-<meta name="keywords" content="crear tienda online, tienda virtual, tiendas virtuales Perú, tiendas virtuales gratis, tienda en línea, ecommerce, creación de tiendas, negocio en línea, dropshipping, emprendimiento,emprendedor,tienda virtual ecuador,tienda virtual colombia, tienda virtual chile, tienda virtual mexico" />
+<meta name="description" content="Creamos tu tienda online. Somos expertos en diseños de tiendas online y estamos comprometidos en ayudarte a lanzar y hacer prosperar tu negocio en línea de manera efectiva y exitosa. ¡Descubre cómo podemos hacer que tu visión cobre vida en el mundo digital hoy mismo!" />
+<meta name="keywords" content="crear tienda online, tienda virtual, tiendas online Perú, tiendas virtuales gratis, tienda en línea, ecommerce, creación de tiendas, negocio en línea, dropshipping, emprendimiento,emprendedor,tienda virtual ecuador,tienda virtual colombia, tienda virtual chile, tienda virtual mexico" />
 <meta name="robots" content="index, follow" />
         <link rel="icon" href="/crea_tienda_ya_favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>

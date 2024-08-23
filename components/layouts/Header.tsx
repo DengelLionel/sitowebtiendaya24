@@ -167,13 +167,13 @@ const [error, setError] = useState(null)
             </li>
             <li>
               <Link href="/conocenos"    className={`transition ease-in-out duration-150  hover:text-secundary2 ${currentPath === '/conocenos' ? 'text-secundary2' : 'text-black2'}`}>
-                CONOCENOS
+                CONÓCENOS
               </Link>
             </li>
             <li>
-              <span onClick={()=>Scroll("#contactanos")}    className={` cursor-pointer transition ease-in-out duration-150  hover:text-secundary2 ${currentPath === '/contactanos' ? 'text-secundary2' : 'text-black2'}`}>
-                CONTACTANOS
-              </span>
+              <Link href="https://wa.link/4ad85q"  target='_blank' className={` cursor-pointer transition ease-in-out duration-150  hover:text-secundary2 `}>
+                CONTÁCTANOS
+              </Link>
             </li>
             <li>
               <Link href="https://www.tiktok.com/@creatiendaya"  title="TIKTOK"  className={`transition-all duration-150 hover:text-secundary2`}>
@@ -243,8 +243,8 @@ const [error, setError] = useState(null)
               )}
             </li>
             <li className='p-[8px]'>
-              <Link href="#" className="text-white">
-                CONTACTANOS
+              <Link href="/contactanos" className="text-white">
+                CONTÁCTANOS
               </Link>
             </li>
             

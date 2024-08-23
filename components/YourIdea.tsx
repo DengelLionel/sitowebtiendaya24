@@ -36,7 +36,7 @@ const YourIdea = ({titulo}:idea) => {
         beneficio: "Separa a tu tienda de la competencia"
       },
       {
-        beneficio: "Crea una comunidad"
+        beneficio: "Aumenta tus ventas"
       }
     ];
     return (

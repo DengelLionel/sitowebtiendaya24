@@ -40,7 +40,7 @@ const DisenoTiendashopify = () => {
       <Header/>
       <section className="flex flex-col justify-center">
   <HeroHeader palabra="DISEÑO" titulo=" DE TIENDAS ONLINE SHOPIFY" contenido="Somos expertos diseñando tiendas online, somos" />
-  <YourIdea titulo="Diseño de tienda online a código  shopify para mejorar tu visibilidad online" />
+  <YourIdea titulo="Diseño de tienda online shopify para aumentar tus ventas" />
 <div className='flex flex-col justify-center items-center'>
 <Titulo titulo='PROCESO DE TRABAJO'/>
 <Procesos procesos={procesos}/>
