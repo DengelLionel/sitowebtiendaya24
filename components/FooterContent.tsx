@@ -81,7 +81,7 @@ const FooterContent = () => {
       </div>
     {/* Acordeón para dispositivos móviles */}
     <div className="lg:hidden mt-4">
-    <h2 className="text-[18px] md:text-2xl font-bold mb-2 tracking-[0.12em]">NUESTRAS POLÍTICAS</h2>
+    <h2 className="text-[18px] md:text-2xl font-bold mb-[30px] text-secundary2 tracking-[0.12em]">NUESTRAS POLÍTICAS</h2>
         <ul className="text-[12px] md:text-[15px] flex flex-col gap-[10px] ">
           <li>
             <Link href="/politica-de-privacidad" className="hover:font-bold tracking-[0.12em]">
